@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoeb Alam's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Recent Works</a></li>
+                <li><a href="#info">My Info</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="home-section">
+        <div class="home-left">
+            <h1>Shoeb Alam</h1>
+            <h3>Coder & Developer</h3>
+        </div>
+        <div class="home-right">
+            <img src="https://i.postimg.cc/Kz513YKm/alam.png" alt="Shoeb Alam">
+        </div>
+    </section>
+    
+    <section id="work" class="work-section">
+        <h2>Recent Works</h2>
+        <div class="gallery">
+            <!-- Repeat this block for each project -->
+            <div class="project">
+                <a href="https://alamfoodservices.netlify.app/"><img src="https://i.postimg.cc/d3tL2Kdr/project-1.png" alt="project 1"></a>
+                <br><br>
+                <a href="https://alam-jarvis.netlify.app/"><img src="https://i.postimg.cc/ZYV9TCtc/project-2.png" alt="project 2"></a>
+                <br><br>
+                <a href="https://alamghir.netlify.app/"><img src="https://i.postimg.cc/zGR3S7Lt/project-3.png" alt="project 3"></a>
+            </div>
+            <!-- End project block -->
+        </div>
+    </section>
+    
+    <section id="info" class="info-section">
+        <div class="info-left">
+            <img src="https://i.postimg.cc/7L8hBz0x/shoeb-png-removebg-preview.png" alt="Shoeb Alam">
+        </div>
+        <div class="info-right">
+            <h2>About Me</h2>
+            <hr class="underline">
+            <p>I am a dedicated Computer Science and Engineering student with a passion for technology and creativity. My skill set includes proficiency in C, Python, MySQL, and Data Structures and Algorithms (DSA). In addition to my technical abilities, I have a flair for video editing, allowing me to blend my analytical skills with my creative side. My diverse expertise positions me well to tackle complex problems and deliver innovative solutions in both software development and multimedia projects.</p>
+            <br><a href="/Resume.pdf" class="cv-button">Download CV</a>
+                <br><br><br><br>
+            <h3>Skills</h3>
+          
+ <div class="skill-list">
+    <img src="https://i.postimg.cc/W4G3x4w0/python.png" alt="Python">
+    <img src="https://i.postimg.cc/vBXmHSjB/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo-thumbnail-removebg-preview.png" alt="C">
+    <img src="https://i.postimg.cc/Wbx13Z9M/download.png" alt="MySQL">
+    <img src="https://i.postimg.cc/xd3ft49R/git.png" alt="Git"><p>
+    <img src="https://i.postimg.cc/9MxWjwRw/github.png" alt="GitHub">
+    <img src="https://i.postimg.cc/rsKqyyxn/chatgpt.webp" alt="ChatGPT">
+    <img src="https://i.postimg.cc/L5w2JdVH/vs-code.png" alt="VS Code"><p>
+</div>
+                <!-- End skill block -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="services-section">
+        <h2>Services</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Promt Engineering</li>
+            <li>App development</li>
+            <li>Chat bot Ai</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form action="send-message.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="send-button">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Shoeb Alam. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/shoebalam440">GitHub</a>
+            <a href="https://instagram.com/shoeb4lam">Instagram</a>
+            <a href="https://www.linkedin.com/in/shoeb-alam-6079b0257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>

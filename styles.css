@@ -1,0 +1,141 @@
+body {
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    background-color: rgb(32, 32, 73);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(32, 32, 73);
+    padding: 50px;
+}
+
+.home-right img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.work-section {
+    background-color: rgb(31, 31, 67);
+    padding: 50px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 50px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 50%;
+
+    height: auto;
+}
+.skill-list img {
+    width: 70px;
+    height: 55px;
+    margin: 20px;
+   
+}
+
+
+
+.info-section {
+    display: flex;
+    background-color: rgb(32, 32, 73);
+    padding: 50px;
+}
+
+.info-left img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.info-right {
+    margin-left: 20px;
+}
+
+.underline {
+    border: none;
+    border-top: 2px solid white;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.cv-button, .send-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.services-section {
+    background-color: rgb(31, 31, 67);
+    padding: 50px;
+}
+
+.contact-section {
+    background-color:rgb(32, 32, 73);
+    padding: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+footer {
+    background-color:rgb(33, 33, 71);
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: rgb(254, 240, 240);
+    margin: 0 10px;
+    text-decoration: none;
+}
